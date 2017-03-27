@@ -8,7 +8,9 @@
             "day",
             "week",
             "month",
-            "year"
+            "year",
+            "am",
+            "pm"
           ],
   "pobj":
           [
@@ -37,6 +39,5 @@
           "october",
           "november",
           "december"
-        ],
-  ""
+        ]
 }

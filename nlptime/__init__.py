@@ -11,6 +11,7 @@ backends_available = []
 
 try:
     import spacy
+    from spacy.symbols import ORTH, DEP, LEMMA
     backends_available.append("spacy")
 except ImportError:
     log.warn("Couldn't import spacy, spacy backend will not be available")

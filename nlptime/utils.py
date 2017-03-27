@@ -1,8 +1,6 @@
 import logging
 import os
 import json
-from keras.models import load_model
-import numpy as np
 
 log = logging.getLogger()
 
